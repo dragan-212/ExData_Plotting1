@@ -60,7 +60,7 @@ do_plot <- function() {
                         ylab = "Global Active Power", type = "n")
         lines(strptime(DateTime, "%d/%m/%Y %H:%M:%S"), Global_active_power)
         # plot 2
-        plot(strptime(DateTime, "%d/%m/%Y %H:%M:%S"), Voltage, xlab = "", 
+        plot(strptime(DateTime, "%d/%m/%Y %H:%M:%S"), Voltage, xlab = "Day", 
                         ylab = "Voltage", type = "n")
         lines(strptime(DateTime, "%d/%m/%Y %H:%M:%S"), Voltage)
         # plot 3
